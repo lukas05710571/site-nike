@@ -1,0 +1,279 @@
+* {
+
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+
+	background: fixed no-repeat 100% url('icons/preto.jpg'); 
+}
+
+
+#check {
+
+	display: none;
+}
+
+#icone{
+
+	cursor: pointer;
+	padding: 15px;
+	position: absolute;
+	z-index: 1;
+}
+
+
+.barra{
+
+	background: #333;
+	height: 100%;
+	width: 300px;
+	position: absolute;
+	transition: all .2s linear;
+
+	left: -300px;
+}
+
+nav{
+
+	width: 100%;
+	position: absolute;
+	top:60px;
+}
+
+
+nav a{
+
+	text-decoration: none;
+
+}
+
+.link {
+
+	
+	padding: 20px;
+	font-family: 'Arial';
+	font-size: 12pt;
+	transition: all .2s linear;
+	color: #f4f4f9
+	
+	
+}
+
+
+.link:hover{
+
+	background: #4F4F4F;
+
+}
+
+#check:checked ~ .barra{
+
+
+transform: translateX(300px);
+
+}
+
+
+#principal{
+	text-align: center;
+	height: 600px;
+	background-image: url('icons/nike.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	z-index: 0;
+}
+
+.float{
+
+	float: left;
+	padding: 50px 300px;
+	margin: 50px;
+
+
+
+}
+
+
+h1{
+	float: left;
+	color: white;
+	margin: 20px auto;
+	font-size: 3em;
+}
+
+p{
+
+	font-family: sans-serif;
+	font-size: 3em;
+	color: white;
+	float: right;
+}
+
+#logo{
+
+	float: left;
+	margin-left:-20%; 
+
+}
+
+
+#espaco-post{
+
+	width: 920px;
+	border: 1px dashed red;
+	margin: 10px auto;
+	padding:15px;
+	border-radius: 99px;
+	filter:alpha(opacity=50); opacity:0.6;
+
+}
+
+.local-post{
+	box-shadow: 20px;
+	width: 200px;
+	height: 300px;
+	border: 1px dotted red;
+	display:inline-block;
+	margin: 0 50px;
+	z-index: 1;
+	background: #c9c9c9;
+	border-radius: 99px 99px;
+	
+	
+}
+
+
+.postei{
+	border-radius: 99px;
+	width: 100px;
+	margin: 10px auto;
+	padding: 15px;
+	border: 5px dotted red;
+	
+}
+
+
+
+#principal5{
+
+text-align: center;
+	height: 600px;
+	background-image: url('icons/shoes2.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	z-index: 0;
+	filter:alpha(opacity=90); opacity:0.90;">
+}
+
+.texto{
+
+	position: relative;
+	margin: 200px auto;
+}
+
+
+a{
+
+	text-align: center;
+	padding: 15px ;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 1em;
+	width: 100px;
+	font-family:"arial";
+
+}
+
+ #principal5  a:hover{  
+
+
+	background: orange;
+	color: white;
+	
+}
+
+
+#rodape{
+
+	width: 100%;
+	padding: 15px;
+	background-color: rgb(60, 60, 60);
+	float: left;
+	position: center;
+	margin: 10px auto;
+}
+
+
+.position{
+
+
+	float: relative;
+	position: absolute;
+
+}
+
+#caixa-contato{
+	margin-top: 50px;
+	margin-left: 1000px;
+	width: 300px;
+	height:200px;
+	
+	float: left;
+
+}
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background: white;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+.textblack{
+
+	color: black
+
+}
+
+table{
+
+	position: center center;
+	float: center;
+	border: 5px dotted white;
+	margin-left: 300px;
+}
+
+
+.center{
+
+	position: center;
+	width: 400px;
+	border-radius: 99px;
+	z-index: 0;
+
+	
+}
+
+
+.especo{
+
+	
+	width: 800px;
+	height: 500px;
+	margin-left: 200px;
+	border: 5px dotted red;
+	z-index: 1;
+}
